@@ -18,12 +18,12 @@ def len_most_unique_chars(s,n):
 	return ret_lst
 
 #print(
-subs = get_all_substrings("abc")
-f = len_most_unique_chars(subs,2)
-a = []
+
+f = len_most_unique_chars("abc",2)
+
 for x in f:
 	#if char_count(x) == 2:
 	#	a.append(x)
 	print(x)
-print(a)
+print(f)
 
